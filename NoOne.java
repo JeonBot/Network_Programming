@@ -1,5 +1,6 @@
 // 2016_09_24
 // 3-2
+// Example
 // lab_2
 // Professor Jung
 // This Program is printed out that input is given by keyboard
