@@ -7,8 +7,7 @@
 // Only System.in/out, BufferedReader and InputStreamReader
 // User -> System.in -> InputStreamReader -> BufferedReader
 // One Stream use another Stream's parameters
-// Like InputStreamReader(System.in) And BufferReader(InputSR)
-
+// Like InputStreamReader(System.in) And BufferReader(ISR)
 // by me
 import java.io.*;
 
