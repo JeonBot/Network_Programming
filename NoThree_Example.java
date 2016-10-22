@@ -5,8 +5,6 @@
 // Professor Jung
 // This Program is printed out that input is given by keyboard
 // Only System.in, FileOutputStream
-// One Stream use another Stream's parameters
-// Like InputStreamReader(System.in) And BufferReader(ISR)
 //by me
 import java.io.*;
 
