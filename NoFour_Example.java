@@ -28,6 +28,4 @@ public class NoFour {
 	}
 }
 
-
 //by Professor ... 0922 ... 
-
