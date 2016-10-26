@@ -3,9 +3,9 @@
 // Example
 // lab_3_1
 // Professor Jung
-// This Program is printed that contented text file is called.
-// MessegeDigest is setting secure method to SHA-256 and written by DigestInputStream(text file, secure method) and saved by array digest
-// : is added plus content is added by DatatypeConverter's printHexBinary too and print
+// This Program is use extended Thread and printed that contented text file is called.
+// MessegeDigest is setting secure method to SHA-256 and written by DigestInputStream(text file, secure method) and saved by array digest.
+// : is added plus content is added by DatatypeConverter's printHexBinary too and print.
 
 import java.io.*;
 import java.security.*;
