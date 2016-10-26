@@ -38,7 +38,6 @@ public class DigestThread extends Thread {
 			byte[] digest = sha.digest();
 			
 			StringBuilder result = new StringBuilder(filename);
-			
 			// add to result. : and DatatypeConverter.printHexBinary(array)
 			result.append(" : ");
 			// use DatatypeConverter. print to HexBinary
