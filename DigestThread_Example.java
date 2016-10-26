@@ -11,7 +11,7 @@ import java.io.*;
 import java.security.*;
 import javax.xml.bind.*;
 
-// this is DigetstThread
+// this is DigetstThread and extends Thread
 public class DigestThread extends Thread {
 	private String filename;
 	
