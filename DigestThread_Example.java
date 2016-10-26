@@ -24,7 +24,7 @@ public class DigestThread extends Thread {
 		try {
 			// No3-12.txt call itself
 			FileInputStream in = new FileInputStream(filename);
-			// MessageDigetst.getInstance is set integrity method(���Ἲ)
+			// MessageDigetst.getInstance is set integrity method(¹«°á¼º)
 			// new is always produce object
 			// but getInstance is caching(just call once. - singleton pattern)
 			MessageDigest sha = MessageDigest.getInstance("SHA-256");
