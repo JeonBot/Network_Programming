@@ -23,24 +23,24 @@ public class TotalInputCipherZip {
 			System.out.print("Plz Input your Keyboard for .txt contents : ");
 			// Make a txt file
 			MakeFile();
-			System.out.println("ÆÄÀÏ»ı¼º...");
+			System.out.println("íŒŒì¼ìƒì„±...");
 			// Encrypt
 			FileInputStream FIS = new FileInputStream("B289086_Input.txt");
 			FileOutputStream FOS = new FileOutputStream("B289086_Input_to_Encrypted.txt");
 			Encrypt_INPUTTXT(key, FIS, FOS);
-			System.out.println("¾ÏÈ£È­¿Ï·á...");
+			System.out.println("ì•”í˜¸í™”ì™„ë£Œ...");
 			// Zip
 			Zip();
-			System.out.println("¾ĞÃà¿Ï·á...");
+			System.out.println("ì••ì¶•ì™„ë£Œ...");
 			System.out.println("1) Write user's input to a compressed and encrypted file. Complete.");
 			// UnZip
 			UnZip();
-			System.out.println("¾ĞÃàÇØÁ¦...");
+			System.out.println("ì••ì¶•í•´ì œ...");
 			// Decrypt
 			FileInputStream FIS1 = new FileInputStream("B289086_Input_to_Encrypted.txt");
 			FileOutputStream FOS1 = new FileOutputStream("UnZip_B289086_Input_Encrypted_to_Decrypted.txt");
 			Decrypt_UNZIPTXT(key, FIS1, FOS1);
-			System.out.println("º¹È£È­¿Ï·á...");
+			System.out.println("ë³µí˜¸í™”ì™„ë£Œ...");
 			FOS1.close();
 			FIS1.close();
 			FOS.close();
